@@ -1,0 +1,261 @@
+/*Pseudo Page*/
+
+
+
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0, 5px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    padding: 20px 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.menu a {
+    text-decoration: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: brown;
+    padding: 0 20px;
+    transition: 0, 5s;
+}
+
+section {
+    margin-top: 200px;
+    background-color: beige;
+    padding: 180px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.style_btn {
+    padding: 5px 25px;
+    color: white;
+    background-color: orange;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.error {
+    color: red;
+    font-size: 30px;
+}
+
+.pseudo form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pseudo form input {
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid gray;
+    margin: 20px 0;
+    width: 350px;
+    padding: 10px 0;
+
+}
+
+/*Fin Pseudo Page*/
+
+/*Select Page*/
+
+h1 {
+    text-align: center;
+    color: black;
+
+}
+
+/*Fin Select Page*/
+
+/*QCM Page*/
+
+.qcm-question {
+    width: 50%;
+}
+
+
+
+.qcm-question form .style_btn {
+    padding: 10px 30px;
+    margin-top: 25px;
+    margin-left: -22px;
+}
+
+#score-container p{
+
+    right: 15px;
+    top: 15px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    background: blue;
+    padding: 10px 15px;
+    min-height: 100px;
+    min-height: 45;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 100px;
+    margin-left: 1000px;
+}
+
+
+/*Fin QCM Page*/
+
+/* Code Gaston Footer */
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,700;1,400 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    background: orange;
+    padding: 2px 0 2px;
+    color: rgb(234, 231, 226);
+    font-size: 13px;
+    line-height: 12px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+footer .row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+footer .row .col {
+    flex-basis: 2%;
+    padding: 10px;
+
+}
+
+footer .row .col .logo {
+    color: rgb(232, 225, 225);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 40px;
+    text-decoration: none;
+    font-size: 2rem;
+
+}
+
+footer .row .col h3 {
+    font-size: 1.2em;
+    text-transform: capitalize;
+    position: relative;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+
+}
+
+footer .row .col h3::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 30px;
+    height: 8px;
+    background: bisque;
+
+}
+
+footer .row .col li {
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+footer .row .col li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(247, 247, 247, 0.916);
+    transition: 3s;
+}
+
+
+footer .row .col p {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(253, 253, 253, 0.582);
+    transition: 3s;
+}
+
+footer .row .col li a:hover {
+    color: rgb(52, 104, 104);
+    padding-left: 2px;
+}
+
+footer .row .col:nth-child(2) {
+    flex-basis: 15%;
+}
+
+footer .row .col:nth-child(3) p {
+    margin-bottom: 12px;
+    text-transform: capitalize;
+
+}
+
+footer .row .col i {
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: 1px solid #298;
+    text-align: center;
+    transition: 3s;
+
+
+}
+
+footer .row .col i:hover {
+    background: #298;
+}
+
+
+@media (max-width:700px) {
+    footer {
+        position: unset;
+    }
+
+    footer .row .col {
+        flex-basis: 100%;
+        padding: 0;
+        margin-bottom: 10px;
+
+    }
+}
+
